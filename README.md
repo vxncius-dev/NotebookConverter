@@ -14,3 +14,12 @@ To install the required dependencies, run:
 
 ```bash
 pip install p2j ipynb-py-convert
+```
+
+## Usage
+
+To run the application, execute the following command in your terminal:
+
+```bash
+python NotebookConverter.py
+```
