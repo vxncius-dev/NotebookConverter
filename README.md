@@ -1,25 +1,32 @@
 # Notebook Converter
-This application is designed to convert Python scripts (.py) into Jupyter notebooks (.ipynb) and vice versa. The motivation behind creating this tool stemmed from the lack of straightforward online converters that can handle this specific task effectively. By providing an easy-to-use interface, this tool aims to streamline the workflow for developers and data scientists who frequently switch between these two formats.
+
+This application converts Python scripts (.py) to Jupyter notebooks (.ipynb) and vice versa. The motivation behind creating this tool was the lack of simple and effective online converters that handle this specific task.
+
+![image](https://github.com/user-attachments/assets/640fc79a-71e7-41a1-b5f2-e1256c96e2d9)
+
 
 ## Features
 
-- Convert `.py` files to `.ipynb` notebooks.
-- Convert `.ipynb` notebooks to `.py` scripts.
-- User-friendly interface for file selection.
+- Convert `.py` files to `.ipynb` notebooks and vice versa.
 - Compatible with both Google Colab and local environments.
 
 ## Installation
 
-To install the required dependencies, run:
+Simply clone the repository:
 
 ```bash
-pip install p2j ipynb-py-convert
+git clone https://github.com/vxncius-dev/NotebookConverter.git
+cd NotebookConverter
 ```
+
+The required libraries will be automatically installed when you run the script.
 
 ## Usage
 
-To run the application, execute the following command in your terminal:
+To run the application, execute:
 
 ```bash
-python NotebookConverter.py
+python main.py
 ```
+
+Choose the file you want to convert, and the script will handle the rest.
